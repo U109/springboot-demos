@@ -1,4 +1,4 @@
-package com.zzz.rabbitmq.wokemode;
+package com.zzz.rabbitmq.workmode;
 
 import com.rabbitmq.client.Channel;
 import com.zzz.rabbitmq.common.RabbitMqUtils;
