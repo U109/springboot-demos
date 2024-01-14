@@ -19,6 +19,7 @@
     <modules>
         <module>RabbitMQ</module>
         <module>springboot-code</module>
+        <module>easyexcel-code</module>
     </modules>
 
     <properties>
