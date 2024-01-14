@@ -1,7 +1,7 @@
-package com.zzz.rabbitmq.workmode;
+package com.zzz.rabbitmq.demos.workmode;
 
 import com.rabbitmq.client.Channel;
-import com.zzz.rabbitmq.common.RabbitMqUtils;
+import com.zzz.rabbitmq.demos.common.RabbitMqUtils;
 
 import java.util.Scanner;
 

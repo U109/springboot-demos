@@ -1,12 +1,7 @@
-package com.zzz.rabbitmq.simplemode;
+package com.zzz.rabbitmq.demos.simplemode;
 
 import com.rabbitmq.client.Channel;
-import com.rabbitmq.client.Connection;
-import com.rabbitmq.client.ConnectionFactory;
-import com.zzz.rabbitmq.common.RabbitMqUtils;
-
-import java.io.IOException;
-import java.util.concurrent.TimeoutException;
+import com.zzz.rabbitmq.demos.common.RabbitMqUtils;
 
 /**
  * @author zhangzhongzhen wrote on 2023/12/28

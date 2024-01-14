@@ -1,16 +1,16 @@
-package com.zzz.rabbitmq.workmode;
+package com.zzz.rabbitmq.demos.workmode;
 
 import com.rabbitmq.client.CancelCallback;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.DeliverCallback;
-import com.zzz.rabbitmq.common.RabbitMqUtils;
+import com.zzz.rabbitmq.demos.common.RabbitMqUtils;
 
 /**
  * @author zhangzhongzhen wrote on 2023/12/29
  * @version 1.0
  * @description:
  */
-public class Consumer01 {
+public class Consumer02 {
 
     public static String QUEUE_NAME = "work";
 

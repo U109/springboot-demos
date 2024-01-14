@@ -1,4 +1,4 @@
-package com.zzz.rabbitmq.common;
+package com.zzz.rabbitmq.demos.common;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
@@ -15,7 +15,7 @@ public class RabbitMqUtils {
     public static Channel getChannel() throws Exception {
         // 创建一个连接工厂
         ConnectionFactory factory = new ConnectionFactory();
-        factory.setHost("117.72.38.212");
+        factory.setHost("117.72.32.234");
         factory.setUsername("zzz");
         factory.setPassword("123456");
         // 创建一个connection
