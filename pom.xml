@@ -18,9 +18,8 @@
 
     <modules>
         <module>springboot-rabbitmq</module>
-        <module>springboot-code</module>
-        <module>easyexcel-code</module>
         <module>threadpool-code</module>
+        <module>easyexcel-code</module>
     </modules>
 
     <properties>
@@ -43,11 +42,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 
