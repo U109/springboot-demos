@@ -20,6 +20,7 @@
         <module>springboot-rabbitmq</module>
         <module>threadpool-code</module>
         <module>easyexcel-code</module>
+        <module>java-code</module>
     </modules>
 
     <properties>
