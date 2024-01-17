@@ -30,7 +30,7 @@ public class Receiver {
     @RabbitListener(queues = {"FANOUT_QUEUE_A"})
     public void on(Message message, Channel channel) throws IOException {
         channel.basicAck(message.getMessageProperties().getDeliveryTag(), true);
-        log.debug("FANOUT_QUEUE_A " + new String(message.getBody()));
+        log.info("FANOUT_QUEUE_A " + new String(message.getBody()));
     }
 
     /**
@@ -43,7 +43,7 @@ public class Receiver {
     @RabbitListener(queues = {"FANOUT_QUEUE_B"})
     public void t(Message message, Channel channel) throws IOException {
         channel.basicAck(message.getMessageProperties().getDeliveryTag(), true);
-        log.debug("FANOUT_QUEUE_B " + new String(message.getBody()));
+        log.info("FANOUT_QUEUE_B " + new String(message.getBody()));
     }
 
     /**
@@ -56,6 +56,6 @@ public class Receiver {
     @RabbitListener(queues = {"DIRECT_QUEUE"})
     public void message(Message message, Channel channel) throws IOException {
         channel.basicAck(message.getMessageProperties().getDeliveryTag(), true);
-        log.debug("DIRECT " + new String(message.getBody()));
+        log.info("DIRECT " + new String(message.getBody()));
     }
 }
